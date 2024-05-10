@@ -1,0 +1,212 @@
+.form-control-sm 
+{
+    height: calc(1.5em + 0.5rem + 1px);
+    padding: 0.25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.0 !important;
+    border-radius: .2rem;
+}
+
+.myTable
+{
+	background: #017dfd;
+    color: #fff;
+}
+
+.myMessage
+{
+	position: relative;
+    padding: 0.75rem 0.25rem;
+    margin-bottom: 0rem;
+    border: 1px solid transparent;
+    border-radius: .35rem;
+    height: 19px;
+    line-height: 1px;
+}
+
+.myLabel 
+{
+    display: inline;
+    padding: 0.2em 1.6em 0.3em;
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 2;
+    color: #fff;
+    /* padding: 4px; */
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    padding-bottom: 9px;
+	padding-left: 9px;
+    margin-left: -15px;
+}
+
+.c-msg
+{
+	margin-top: -11px;
+    padding-bottom: 5px;
+    padding-top: 0px;
+}
+
+/*  LAPTOP */
+/* For 1024 Resolution */  
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)
+{ 
+
+    body
+	{
+       /*  background: pink; */
+    }
+}
+
+/* For 1366 Resolution */  
+@media only screen and (min-width: 1030px) and (max-width: 1366px)  
+{ 
+    body
+	{
+		/* background-color: red; */
+		height: 100vh;
+       
+    }
+	
+	#wrapper
+	{
+		padding:15px;
+	}
+	
+	/* 
+	.modal-dialog 
+	{
+		position: relative;
+		width: auto;
+		margin: .5rem;
+		pointer-events: none;
+		margin-left:70px;
+	}
+	
+	.modal-content 
+	{
+		position: relative;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		width: 1200px;
+		pointer-events: auto;
+		background-color: #fff;
+		background-clip: padding-box;
+		border: 1px solid rgba(0,0,0,.2);
+		border-radius: .3rem;
+		outline: 0;
+	}
+	
+	.main-menu-area .cp-main-menu 
+	{
+		text-align: right;
+		font-size: 11px;
+	}
+	
+    .my_box
+	{
+        font-size: 50px;
+        margin-top: 47px;
+        margin-left: 77px;
+    } 
+	*/
+}  
+
+/************* Sir Laptop   ****************/
+@media only screen and (min-width: 1370px) and (max-width: 1605px)  
+{ 
+    body
+	{
+		/*background-color: yellow;*/
+        height: 100vh;
+        zoom: 90%;
+    }
+	
+	#wrapper
+	{
+		padding:15px;
+	}
+	
+    /* 
+	.modal-dialog 
+	{
+		position: relative;
+		width: auto;
+		margin: .5rem;
+		pointer-events: none;
+		margin-left:20px;
+	}
+	
+	.modal-content 
+	{
+		position: relative;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		width: 1500px;
+		pointer-events: auto;
+		background-color: #fff;
+		background-clip: padding-box;
+		border: 1px solid rgba(0,0,0,.2);
+		border-radius: .3rem;
+		outline: 0;
+	} 
+	*/
+}  
+
+/*My Desktop screen*/
+@media only screen and (min-width: 1605px) and (max-width: 2000px)  
+{ 
+    body
+	{
+		/*background: pink;*/
+        height: 100vh;
+        /*zoom: 90%;*/
+    }
+	
+	/* 
+	.modal-dialog 
+	{
+		position: relative;
+		width: auto;
+		margin: .5rem;
+		pointer-events: none;
+		margin-left:70px;
+	}
+	
+	.modal-content 
+	{
+		position: relative;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		width: 1600px;
+		pointer-events: auto;
+		background-color: #fff;
+		background-clip: padding-box;
+		border: 1px solid rgba(0,0,0,.2);
+		border-radius: .3rem;
+		outline: 0;
+	}
+	
+	.cr-viewport
+	{
+		width: 95%;
+	} 
+	*/
+}
